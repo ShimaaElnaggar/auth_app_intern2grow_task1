@@ -3,8 +3,8 @@
 import 'package:flutter/material.dart';
 
 class RememberMeAndForgotPass extends StatelessWidget {
-  const RememberMeAndForgotPass({super.key});
-
+  const RememberMeAndForgotPass({super.key, required this.question});
+ final String question;
   @override
   Widget build(BuildContext context) {
     return  Row(
@@ -18,7 +18,7 @@ class RememberMeAndForgotPass extends StatelessWidget {
         Spacer(),
         Padding(
           padding: const EdgeInsets.only(right: 16),
-          child: const Text("Forgot Password?",style: TextStyle(fontWeight: FontWeight.w700),),
+          child:  Text(question,style: TextStyle(fontWeight: FontWeight.w700),),
         ),
       ],
     );

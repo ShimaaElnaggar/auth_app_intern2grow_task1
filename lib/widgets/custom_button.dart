@@ -2,8 +2,8 @@
 import 'package:flutter/material.dart';
 
 class CustomButton extends StatelessWidget {
-  const CustomButton({super.key});
-
+  const CustomButton({super.key, required this.clickName});
+final String clickName;
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -18,7 +18,7 @@ class CustomButton extends StatelessWidget {
                   shape: RoundedRectangleBorder()
                 ),
             child:Text(
-              "Log in",
+              clickName,
               style: TextStyle(color: Colors.white),
             ),
         ),

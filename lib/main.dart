@@ -1,4 +1,5 @@
 import 'package:auth_app_intern2grow/views/login_view.dart';
+import 'package:auth_app_intern2grow/views/register_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      home: LoginView(),
+      home: RegisterView(),
     );
   }
 }
