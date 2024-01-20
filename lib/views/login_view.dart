@@ -17,7 +17,7 @@ class LoginView extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            CustomStack(),
+            const CustomStack(image: "assets/images/logo.png",),
             const CustomText(text: " Login in to your account"),
             CustomTextFormField(
                 label: "Username",

@@ -17,7 +17,7 @@ class RegisterView extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            CustomStack(),
+            const CustomStack(image: 'assets/images/logo.png',),
             const CustomText(text: " Create new account "),
             CustomTextFormField(
                 label: "Username",

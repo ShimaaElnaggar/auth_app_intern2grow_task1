@@ -2,8 +2,8 @@
 import 'package:flutter/material.dart';
 
 class CustomStack extends StatelessWidget {
-  const CustomStack({super.key});
-
+  const CustomStack({super.key, required this.image});
+final String image;
   @override
   Widget build(BuildContext context) {
     return Stack(
@@ -17,7 +17,7 @@ class CustomStack extends StatelessWidget {
           bottom: -80,
           left: 120,
           child: Image.asset(
-            "assets/images/logo.png",
+            image,
             width: 150,
             height: 150,
           ),

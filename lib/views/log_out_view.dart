@@ -17,7 +17,7 @@ class LogOutView extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            const CustomStack(),
+            const CustomStack(image: 'assets/images/peofile.jpg',),
             const CustomText(text: " Shimaa El Naggar"),
             CustomTextFormField(
                 label: "Username",
@@ -25,12 +25,13 @@ class LogOutView extends StatelessWidget {
                 icon: Icon(Icons.dangerous_outlined,color: kPrimaryColor,size: 18,)),
             CustomTextFormField(
               label: "Email",
+              hint:"shimaaibrahim072@gmail.com",
               icon:Icon(Icons.dangerous_outlined,color: kPrimaryColor,size: 18,),),
             const CustomTextFormField(
               label: "Gender",
               hint: "Female",
             ),
-            const CustomButton(clickName: 'Log out', color: Colors.red,),
+            const CustomButton(clickName: 'Log out', color: Colors.red ,),
 
           ],
         ),
