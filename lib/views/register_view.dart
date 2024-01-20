@@ -31,7 +31,7 @@ class RegisterView extends StatelessWidget {
               icon: Icon(Icons.remove_red_eye,color: kPrimaryColor,size: 18,),
             ),
             const RememberMeAndForgotPass(question: 'Have a problem?',),
-            const CustomButton(clickName: "Register",),
+            const CustomButton(clickName: "Register", color: Colors.blue,),
             const TextButtonSection(title: "Already have an account?", txt: "Log in"),
           ],
         ),

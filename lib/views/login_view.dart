@@ -28,7 +28,7 @@ class LoginView extends StatelessWidget {
                 icon: Icon(Icons.remove_red_eye,color: kPrimaryColor,size: 18,),
             ),
             const RememberMeAndForgotPass(question: 'Forgot Password?',),
-            const CustomButton(clickName: 'Log in',),
+            const CustomButton(clickName: 'Log in', color: Colors.blue,),
             const TextButtonSection(title: "Don't have an account?", txt: "Register"),
           ],
         ),

@@ -30,7 +30,7 @@ class LogOutView extends StatelessWidget {
               label: "Gender",
               hint: "Female",
             ),
-            const CustomButton(clickName: 'Log out',),
+            const CustomButton(clickName: 'Log out', color: Colors.red,),
 
           ],
         ),
