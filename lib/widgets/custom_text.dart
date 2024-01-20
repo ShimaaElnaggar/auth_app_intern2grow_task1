@@ -6,12 +6,15 @@ class CustomText extends StatelessWidget {
 final String text;
   @override
   Widget build(BuildContext context) {
-    return Text(
-      text,
-      style: const TextStyle(
-        color: Colors.black,
-        fontSize: 28,
-        fontWeight: FontWeight.bold,
+    return Padding(
+      padding: const EdgeInsets.only(top: 100),
+      child: Text(
+        text,
+        style: const TextStyle(
+          color: Colors.black,
+          fontSize: 23,
+          fontWeight: FontWeight.bold,
+        ),
       ),
     );
   }

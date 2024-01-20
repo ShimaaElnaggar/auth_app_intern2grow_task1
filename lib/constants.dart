@@ -1,4 +1,4 @@
 
  import 'package:flutter/material.dart';
 
-final  kPrimaryColor =  Colors.grey.withOpacity(0.5);
+ Color kPrimaryColor =  Colors.grey;

@@ -1,6 +1,5 @@
 
-import 'package:auth_app_intern2grow/constants.dart';
-import 'package:auth_app_intern2grow/widgets/custom_text.dart';
+
 import 'package:flutter/material.dart';
 
 class RememberMeAndForgotPass extends StatelessWidget {
